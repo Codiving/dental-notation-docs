@@ -53,6 +53,7 @@ const DentalNotationTest = () => {
     setSelectedTeeth(teeth);
 
     if (!isConvert) return;
+    setSelectedTeeth([]);
 
     const originTeeth = switchTeethWithTmp(teeth);
     const ur = originTeeth.filter(tooth =>
