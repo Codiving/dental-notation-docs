@@ -14,7 +14,7 @@ const Installing = () => {
           }}
         >
           <p>Using npm:</p>
-          <p
+          <code
             style={{
               backgroundColor: "#f6f8fa",
               padding: 16
@@ -22,7 +22,7 @@ const Installing = () => {
             }}
           >
             npm install dental-notation
-          </p>
+          </code>
         </div>
         <div
           style={{

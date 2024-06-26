@@ -201,3 +201,8 @@ main {
   gap: 8px;
   margin-bottom: 40px;
 }
+
+code {
+  background-color: #f6f8fa;
+  padding: 16px;
+}
